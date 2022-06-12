@@ -1,12 +1,3 @@
-/* 
-    Autor: Jonat√°n Amaya
-    Universidad: UNAH-VS
-    Carrera: Licenciatura en Inform√°tica Administrativa
-    Hora: 18:00 - 19:00
-    Catedr√°tico: Lic. billy fernandez
-    Clase: Lenguaje de Programaci√≥n II
-*/ 
-
 #include <iostream>
 #include <algorithm>
 #include <time.h>
@@ -32,7 +23,7 @@ void cargarLibros() {
 
 	libros[3][0] = "Algoritmos"; 
     libros[3][1] = "Fundamentos de Informatica y Programacion";
-	libros[3][2] = "Gregorio Mart√≠n Quetgl√°s, Francisco Toledo Lobo, Vicente Cerver√≥n Lle√≥";
+	libros[3][2] = "Gregorio MartÌn Quetgl·s, Francisco Toledo Lobo, Vicente CerverÛn LleÛ";
 
     libros[4][0] = "Algoritmos"; 
     libros[4][1] = "Temas selectos de estructuras de datos";
@@ -44,7 +35,7 @@ void cargarLibros() {
 
 	libros[6][0] = "Base de Datos"; 
     libros[6][1] = "Apuntes de Base de Datos 1";
-    libros[6][2] = "Eva G√≥mez Ballester, Patricio Mart√≠nez Barco, Paloma Moreda Pozo, Armando Su√°rez Cueto, Andr√©s Montoyo Guijarro, Estela Saquete Boro";
+    libros[6][2] = "Eva GÛmez Ballester, Patricio MartÌnez Barco, Paloma Moreda Pozo, Armando Su·rez Cueto, AndrÈs Montoyo Guijarro, Estela Saquete Boro";
 
 	libros[7][0] = "Base de Datos"; 
     libros[7][1] = "Base de Datos (2005)";
@@ -52,11 +43,11 @@ void cargarLibros() {
 
 	libros[8][0] = "Base de Datos"; 
     libros[8][1] = "Base de Datos (2011)";
-    libros[8][2] = "Marta Elena Zorrilla Pantale√≥n, Rafael Duque Medina";
+    libros[8][2] = "Marta Elena Zorrilla PantaleÛn, Rafael Duque Medina";
 
 	libros[9][0] = "Base de Datos"; 
     libros[9][1] = "Base de Datos Avanzadas (2013)";
-    libros[9][2] = "Mar√≠a Jos√© Aramburu Cabo , Ismael Sanz Blasco";
+    libros[9][2] = "MarÌa JosÈ Aramburu Cabo , Ismael Sanz Blasco";
 
 	libros[10][0] = "Base de Datos"; 
     libros[10][1] = "Diseno Conceptual de Bases de Datos";
@@ -80,7 +71,7 @@ void cargarLibros() {
 
 	libros[15][0] = "Metodologias de desarrollo de software"; 
     libros[15][1] = "Ingenieria de Software: Una Guia para Crear Sistemas de Informacion";
-    libros[15][2] = "Alejandro Pe√±a Ayala";
+    libros[15][2] = "Alejandro PeÒa Ayala";
 
 	libros[16][0] = "Metodologias de desarrollo de software"; 
     libros[16][1] = "Scrum & Extreme Programming (para programadores)";
@@ -108,7 +99,7 @@ void cargarLibros() {
 
 	libros[22][0] = "Miscelaneos"; 
     libros[22][1] = "Programacion de videojuegos SDL";
-    libros[22][2] = "Alberto Garc√≠a Serrano";
+    libros[22][2] = "Alberto GarcÌa Serrano";
 
 	libros[23][0] = "PHP"; 
     libros[23][1] = "Manual de estudio introductorio al lenguaje PHP procedural";
@@ -116,7 +107,7 @@ void cargarLibros() {
 
 	libros[24][0] = "PHP"; 
     libros[24][1] = "PHP y Programacion orientada a objetos";
-    libros[24][2] = "Diego L√°zaro, Jairo Garcia Rincon";
+    libros[24][2] = "Diego L·zaro, Jairo Garcia Rincon";
 
 	libros[25][0] = "PHP"; 
     libros[25][1] = "POO y MVC en PHP";
@@ -152,7 +143,7 @@ void cargarLibros() {
 	
     libros[33][0] = "Python"; 
     libros[33][1] = "Introduccion a la programacion con Python";
-    libros[33][2] = "Luis Eduardo Mu√±oz Guerrero, Omar Iv√°n Trejos Buritic√°";
+    libros[33][2] = "Luis Eduardo MuÒoz Guerrero, Omar Iv·n Trejos Buritic·";
 	
     libros[34][0] = "Python"; 
     libros[34][1] = "Introduccion a Programando con Python";
@@ -164,7 +155,7 @@ void cargarLibros() {
 	
     libros[36][0] = "Python"; 
     libros[36][1] = "Python para ciencia e ingenieria";
-    libros[36][2] = "Miguel Angel Su√°rez Ledo";
+    libros[36][2] = "Miguel Angel Su·rez Ledo";
 	
     libros[37][0] = "Python"; 
     libros[37][1] = "Python para principiantes";
@@ -185,7 +176,6 @@ int main(int argc, char const *argv[])
     bool salir = false;
 
     while (salir == false)
-    
     {
         string buscar = "";
         system("cls");
